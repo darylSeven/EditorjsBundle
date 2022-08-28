@@ -1,13 +1,16 @@
 {
-    "name": "tbmatuka/editorjs-bundle",
+    "name": "rusfeniks/editorjs-bundle",
     "description": "Symfony bundle for Editor.js",
-    "homepage": "https://github.com/tbmatuka/EditorjsBundle",
+    "homepage": "https://github.com/RusFeniks/EditorjsBundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
             "name": "Tin Benjamin Matuka",
             "homepage": "https://tbmatuka.com/"
+        },
+        {
+            "name": "Andrew Kasai"
         }
     ],
     "support": {
