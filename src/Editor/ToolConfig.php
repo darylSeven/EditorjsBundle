@@ -40,7 +40,7 @@ class ToolConfig
     private $config = [];
 
     /**
-     * @param bool|array|null|mixed $inlineToolbar
+     * @param bool|array|mixed|null $inlineToolbar
      */
     public function __construct(
         string $name,
