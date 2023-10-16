@@ -11,6 +11,9 @@
         },
         {
             "name": "Andrew Kasai"
+        },
+        {
+            "name": "Daryl Johnson"
         }
     ],
     "support": {
@@ -25,20 +28,20 @@
     "require": {
         "php": ">=8.1",
         "ext-json": "*",
-        "symfony/config": "6.1.*",
-        "symfony/dependency-injection": "6.1.*",
-        "symfony/form": "6.1.*",
-        "symfony/framework-bundle": "6.1.*",
-        "symfony/http-foundation": "6.1.*",
-        "symfony/http-kernel": "6.1.*",
-        "symfony/options-resolver": "6.1.*",
-        "symfony/property-access": "6.1.*",
-        "symfony/routing": "6.1.*",
-        "symfony/twig-bundle": "6.1.*"
+        "symfony/config": "6.3.*",
+        "symfony/dependency-injection": "6.3.*",
+        "symfony/form": "6.3.*",
+        "symfony/framework-bundle": "6.3.*",
+        "symfony/http-foundation": "6.3.*",
+        "symfony/http-kernel": "6.3.*",
+        "symfony/options-resolver": "6.3.*",
+        "symfony/property-access": "6.3.*",
+        "symfony/routing": "6.3.*",
+        "symfony/twig-bundle": "6.3.*"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.8",
-        "symfony/phpunit-bridge": "6.1.*"
+        "symfony/phpunit-bridge": "^6.3.*"
     },
     "scripts": {
         "cs-fixer": "vendor/bin/php-cs-fixer fix -v --dry-run",
