@@ -1,0 +1,8 @@
+{
+    "name": "darylseven/editorjs-bundle",
+    "version": "0.1.6",
+    "dist": {
+        "url": "https://github.com/darylSeven/EditorjsBundle/archive/refs/tags/symfony6-fixes.zip",
+        "type": "zip"
+    }
+}
