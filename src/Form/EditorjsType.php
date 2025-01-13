@@ -15,12 +15,12 @@ class EditorjsType extends AbstractType
     /**
      * @var EditorjsTransformer
      */
-    protected $transformer;
+    protected EditorjsTransformer $transformer;
 
     /**
      * @var EditorConfigCollection
      */
-    protected $configCollection;
+    protected EditorConfigCollection $configCollection;
 
     public function __construct(
         EditorjsTransformer $transformer,

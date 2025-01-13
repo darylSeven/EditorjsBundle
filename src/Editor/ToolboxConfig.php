@@ -7,12 +7,12 @@ class ToolboxConfig
     /**
      * @var string|null
      */
-    private $title;
+    private ?string $title;
 
     /**
      * @var string|null
      */
-    private $icon;
+    private ?string $icon;
 
     public function __construct(
         ?string $title = null,

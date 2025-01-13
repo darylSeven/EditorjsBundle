@@ -9,7 +9,7 @@ class EditorConfigCollection
     /**
      * @var EditorConfig[]
      */
-    private $editorConfigs = [];
+    private array $editorConfigs = [];
 
     public function __construct(iterable $editorConfigs)
     {

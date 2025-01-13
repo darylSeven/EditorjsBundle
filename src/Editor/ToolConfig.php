@@ -7,37 +7,37 @@ class ToolConfig
     /**
      * @var string
      */
-    private $name = '';
+    private string $name = '';
 
     /**
      * @var string
      */
-    private $className = '';
+    private string $className = '';
 
     /**
      * @var string|null
      */
-    private $asset;
+    private ?string $asset;
 
     /**
      * @var string|null
      */
-    private $shortcut;
+    private ?string $shortcut;
 
     /**
      * @var bool|array|null
      */
-    private $inlineToolbar = true;
+    private array|bool|null $inlineToolbar = true;
 
     /**
      * @var ToolboxConfig|null
      */
-    private $toolbox;
+    private ?ToolboxConfig $toolbox;
 
     /**
      * @var array
      */
-    private $config = [];
+    private array $config = [];
 
     /**
      * @param bool|array|mixed|null $inlineToolbar

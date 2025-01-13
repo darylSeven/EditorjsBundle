@@ -14,12 +14,12 @@ class EditorjsExtension extends AbstractExtension
     /**
      * @var EditorConfigCollection
      */
-    protected $editorConfigCollection;
+    protected EditorConfigCollection $editorConfigCollection;
 
     /**
      * @var EditorjsTransformer
      */
-    protected $editorjsTransformer;
+    protected EditorjsTransformer $editorjsTransformer;
 
     public function __construct(
         EditorConfigCollection $editorConfigCollection,

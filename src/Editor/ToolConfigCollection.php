@@ -7,7 +7,7 @@ class ToolConfigCollection
     /**
      * @var ToolConfig[]
      */
-    private $toolConfigs = [];
+    private array $toolConfigs = [];
 
     /**
      * @param ToolConfig[] $toolConfigs

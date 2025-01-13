@@ -7,22 +7,22 @@ class Editor
     /**
      * @var string
      */
-    private $holder = '';
+    private string $holder = '';
 
     /**
      * @var EditorConfig|null
      */
-    private $config;
+    private ?EditorConfig $config;
 
     /**
      * @var ToolConfig[]
      */
-    private $tools = [];
+    private array $tools = [];
 
     /**
      * @var array
      */
-    private $data = [];
+    private array $data = [];
 
     public function __construct(
         string $holder = '',

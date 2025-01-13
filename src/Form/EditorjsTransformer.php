@@ -13,12 +13,12 @@ class EditorjsTransformer implements DataTransformerInterface
      */
     protected $config;
 
-    public function transform($value)
+    public function transform($value): mixed
     {
         return $value;
     }
 
-    public function reverseTransform($value)
+    public function reverseTransform($value): mixed
     {
         if ($value === '') {
             return [];

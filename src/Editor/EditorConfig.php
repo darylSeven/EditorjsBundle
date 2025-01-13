@@ -7,57 +7,57 @@ class EditorConfig
     /**
      * @var string
      */
-    private $name = '';
+    private string $name = '';
 
     /**
      * @var bool|null
      */
-    private $autofocus;
+    private ?bool $autofocus;
 
     /**
      * @var string|null
      */
-    private $initialBlock;
+    private ?string $initialBlock;
 
     /**
      * @var string|null
      */
-    private $placeholder;
+    private ?string $placeholder;
 
     /**
      * @var array
      */
-    private $sanitizer = [];
+    private array $sanitizer = [];
 
     /**
      * @var bool|null
      */
-    private $hideToolbar;
+    private ?bool $hideToolbar;
 
     /**
      * @var ToolConfig[]
      */
-    private $tools = [];
+    private array $tools = [];
 
     /**
      * @var int|null
      */
-    private $minHeight;
+    private ?int $minHeight;
 
     /**
      * @var string|null
      */
-    private $onReady;
+    private ?string $onReady;
 
     /**
      * @var string|null
      */
-    private $onChange;
+    private ?string $onChange;
 
     /**
      * @var string|null
      */
-    private $logLevel;
+    private ?string $logLevel;
 
     public function __construct(
         string $name,
